@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Thornton Weather</title>
+  <meta name="description" content="Weather for the Thornton family cities">
+  <!-- iPhone home-screen settings: open full screen, with this title -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Thornton Weather">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#f2f2f7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <h1>Thornton Weather</h1>
+    <div class="status">
+      <span id="updated">Loading…</span>
+      <button id="refresh" type="button" aria-label="Refresh weather">↻ Refresh</button>
+    </div>
+  </header>
+  <main id="cities"></main>
+  <footer>Weather data by <a href="https://open-meteo.com/">Open-Meteo</a>. Tap a city for more.</footer>
+  <script src="app.js"></script>
+</body>
+</html>
