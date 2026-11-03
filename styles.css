@@ -800,3 +800,10 @@ body.lightbox-open {
   color: var(--muted);
   font-size: 0.95rem;
 }
+
+/* Chicago Condo Rehab before/after pairs */
+.condo-room { margin: 2rem 0 0.75rem; }
+.gallery-grid.condo-pair { grid-template-columns: 1fr; }
+@media (min-width: 640px) {
+  .gallery-grid.condo-pair { grid-template-columns: 1fr 1fr; }
+}
