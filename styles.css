@@ -804,6 +804,7 @@ body.lightbox-open {
 /* Chicago Condo Rehab before/after pairs */
 .condo-room { margin: 2rem 0 0.75rem; }
 .gallery-grid.condo-pair { grid-template-columns: 1fr; }
-@media (min-width: 640px) {
+@media (min-width: 560px) {
   .gallery-grid.condo-pair { grid-template-columns: 1fr 1fr; }
+  .gallery-grid.condo-pair li:nth-child(n) { grid-column: auto; }
 }
